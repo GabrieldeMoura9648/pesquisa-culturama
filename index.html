@@ -12,7 +12,8 @@
     </header>
     <section>
         <form action="" method="get"> <!--Get as infos vai para a URL-->
-             <fieldset>
+        
+        <fieldset>
                 <legend>Dados Pessoais</legend> 
                 <label for="name">Nome</label>
                 <input id="name" type="text" name="userName" required>
@@ -32,9 +33,9 @@
                 <label for="image">Upload de foto</label>
                 <input id="image" type="file" accept="image/*" name="userImage">
                 <br>
-            </fieldset> 
+        </fieldset> 
 
-            <fieldset>
+        <fieldset>
             <legend>Perfil</legend>
 
             <p>Gênero:</p>
@@ -94,10 +95,10 @@
             <label for="City">Cidade:</label>
             <input id="City" type="text" id="userCity" name="userCity" autocomplete="address-level2" 
             placeholder="Ex.: Fortaleza" />
-          </fieldset> 
+        </fieldset> 
 
 
-          <fieldset>
+        <fieldset>
             <legend>Hábitos</legend>
             <p>Redes Sociais:</p>
             <input id="instagram" type="checkbox" name="social" value="instagram">
@@ -112,7 +113,19 @@
             <input id="X" type="checkbox" name="social" value="X">
             <label for="X">X</label>       
             <br>
-          </fieldset>
+
+            <label for="musicStyle">Estilo Musical:</label>
+            <input list="styleTypes" id="musicStyle" name="userMusicStyle" type="text">
+            <datalist id="styleTypes">
+                <option value="Rock">
+                <option value="Pop">
+                <option value="Samba">
+                <option value="Sertanejo">
+                 
+            </datalist>
+        </fieldset>
+
+
 
 
             <button type="submit">Enviar</button>
