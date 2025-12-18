@@ -1,67 +1,72 @@
-Pesquisa Culturama
+# Pesquisa Culturama
 
-Este repositório contém o projeto Pesquisa Culturama, um formulário de pesquisa online desenvolvido como parte do curso de Front-end da Alura. 
+Projeto de formulário de pesquisa online desenvolvido para a **empresa Culturama** com o objetivo de coletar respostas de usuários por meio de um formulário simples e funcional.
 
-📌 Sobre o projeto
+## 📌 Sobre
 
-O objetivo deste projeto é oferecer um formulário digital onde usuários podem responder uma pesquisa para a empresa Culturama. O formulário foi criado para coletar dados de forma simples e responsiva, utilizando as tecnologias aprendidas no curso.
+Este repositório contém um formulário web estático que pode ser hospedado em qualquer servidor ou serviço de páginas estáticas como GitHub Pages. O formulário coleta dados de usuários e redireciona para uma página de confirmação ao enviar.
 
-Este projeto demonstra habilidades básicas em HTML e CSS, e representa um exercício prático em estruturas de formulários e estilização para web. 
+---
 
-🚀 Tecnologias utilizadas
+## 🚀 Funcionalidades
 
-O projeto foi construído com as seguintes tecnologias:
+- Formulário de pesquisa online responsivo
+- Validação básica de campos no cliente
+- Redirecionamento para página de sucesso após envio
+- Compatível com navegadores modernos
 
-HTML5 – Estruturação de conteúdos;
+---
 
-CSS3 – Estilização visual e layout;
+## 🧩 Tecnologias Utilizadas
 
-Padrões básicos de semântica e responsividade.
+O projeto foi desenvolvido com as seguintes tecnologias:
 
-📁 Conteúdo do repositório
+- **HTML5** – marcação da interface
+- **CSS3** – estilo e layout responsivo
+- **JavaScript (opcional)** – validação de formulário
 
-O repositório contém os principais arquivos e pastas a seguir:
+---
 
-📦pesquisa-culturama
-├── css/                  # Estilos do projeto
-├── img/                  # Imagens e ícones utilizados
-├── index.html            # Formulário principal
-├── sucesso.html          # Página exibida após o envio do formulário
-└── README.md             # Documentação do projeto
+## 📁 Estrutura do Repositório
 
-🧠 Funcionalidades
-
-Formulário com campos de entrada para coleta de dados;
-
-Validação básica de preenchimento no layout;
-
-Redirecionamento para página de sucesso após envio;
-
-Design responsivo para diferentes resoluções (conforme aprendizados do curso).
-
-📌 Como usar
+```plaintext
+pesquisa-culturama/
+├── css/
+│   └── estilos.css
+├── img/
+│   └── culturama-favico.png
+├── index.html
+└── sucesso.html
+🛠️ Como Executar Localmente
+Siga os passos abaixo para rodar o projeto localmente:
 
 Clone este repositório:
 
+bash
+Copiar código
 git clone https://github.com/GabrieldeMoura9648/pesquisa-culturama.git
+Navegue até a pasta do projeto:
 
+bash
+Copiar código
+cd pesquisa-culturama
+Abra o arquivo index.html no seu navegador de preferência:
 
-Abra o arquivo index.html em qualquer navegador moderno.
+Clique duas vezes no arquivo
+ou
 
-Preencha o formulário e teste o fluxo de envio.
+Use um servidor local (por exemplo, Live Server no VS Code)
 
-🎯 Objetivo educacional
+🌐 Demonstração
+O projeto pode ser visualizado ao vivo via GitHub Pages:
 
-Este projeto foi criado com foco no aprendizado de conceitos essenciais do desenvolvimento Front-end, como:
+https://gabrieldemoura9648.github.io/pesquisa-culturama/
 
-Estrutura de formulários com HTML;
-
-Estilização com CSS;
-
-Organização de arquivos em um repositório;
-
-Publicação de projetos no GitHub como portfólio.
 
 📝 Licença
+Este projeto está licenciado sob a MIT License. Consulte o arquivo LICENSE para mais detalhes.
 
-Este projeto é de uso educacional e pode ser visualizado livremente no GitHub. Sinta-se à vontade para estudá-lo, adaptar e aplicar os conceitos em seus próprios projetos.
+📬 Contato
+Se você tiver dúvidas ou quiser sugestões, entre em contato:
+
+Autor: Gabriel De Moura
