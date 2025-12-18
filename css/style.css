@@ -26,7 +26,7 @@ img {
 
 h1 {
     font-family: "Fjalla One", sans-serif;
-}
+}   
 
 form {
     background-color: #FFFFFF;
@@ -56,6 +56,16 @@ label {
 p {
     margin-bottom: 15px;
     font-weight: bold;
+}
+
+input[type="tel"],
+input[type="file"]{
+    margin-bottom: 0;
+}
+
+small{
+    display:inline-block; /*Transforma em elemento de bloco que se comporta como linha*/
+    margin-bottom:20px;
 }
 
 input, select, textarea {
