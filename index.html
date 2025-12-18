@@ -47,7 +47,8 @@
                 <br>
 
                 <label for="image">Upload de foto</label>
-                <input id="image" type="file" accept="image/*" name="userImage">
+                <input id="image" type="file" accept="image/*" name="userImage" aria-describedby="imageHelp">
+                <small id="imageHelp">Envie uma foto no formato PNG ou JPEG</small>
                 <br>
 
         </fieldset> 
@@ -67,7 +68,7 @@
             <label for="notInformed">Prefiro não informar</label>
             <br>
 
-            <label for="maritalStatus">Estado Cível:</label>
+            <label for="maritalStatus">Estado Civil:</label>
             <select id="maritalStatus" name="userMaritalStatus">
                 <option value="notInformed">Selecione...</option>
                 <option value="casado">Casado</option>
