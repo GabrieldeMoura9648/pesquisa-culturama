@@ -37,31 +37,32 @@ pesquisa-culturama/
 │   └── culturama-favico.png
 ├── index.html
 └── sucesso.html
+```
+
 🛠️ Como Executar Localmente
 Siga os passos abaixo para rodar o projeto localmente:
 
 Clone este repositório:
 
-bash
-Copiar código
+```
 git clone https://github.com/GabrieldeMoura9648/pesquisa-culturama.git
+```
 Navegue até a pasta do projeto:
 
-bash
-Copiar código
+```
 cd pesquisa-culturama
+```
+
 Abra o arquivo index.html no seu navegador de preferência:
 
 Clique duas vezes no arquivo
 ou
-
 Use um servidor local (por exemplo, Live Server no VS Code)
 
 🌐 Demonstração
 O projeto pode ser visualizado ao vivo via GitHub Pages:
 
 https://gabrieldemoura9648.github.io/pesquisa-culturama/
-
 
 📝 Licença
 Este projeto está licenciado sob a MIT License. Consulte o arquivo LICENSE para mais detalhes.
