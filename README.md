@@ -67,7 +67,4 @@ https://gabrieldemoura9648.github.io/pesquisa-culturama/
 📝 Licença
 Este projeto está licenciado sob a MIT License. Consulte o arquivo LICENSE para mais detalhes.
 
-📬 Contato
-Se você tiver dúvidas ou quiser sugestões, entre em contato:
-
 Autor: Gabriel De Moura
